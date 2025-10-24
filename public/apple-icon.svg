@@ -1,0 +1,41 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="largeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2563EB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded square background -->
+  <rect width="512" height="512" rx="100" fill="url(#largeGrad)"/>
+  
+  <!-- HTML brackets with shadow -->
+  <g opacity="0.2">
+    <path d="M110 160 L170 160 L170 130 L110 130 Z" fill="black"/>
+    <path d="M110 385 L170 385 L170 355 L110 355 Z" fill="black"/>
+    <path d="M402 160 L342 160 L342 130 L402 130 Z" fill="black"/>
+    <path d="M402 385 L342 385 L342 355 L402 355 Z" fill="black"/>
+  </g>
+  
+  <!-- HTML brackets -->
+  <path d="M100 150 L160 150 L160 120 L100 120 Z" fill="white"/>
+  <path d="M100 395 L160 395 L160 365 L100 365 Z" fill="white"/>
+  <path d="M412 150 L352 150 L352 120 L412 120 Z" fill="white"/>
+  <path d="M412 395 L352 395 L352 365 L412 365 Z" fill="white"/>
+  
+  <!-- Canvas/Document icon in center with shadow -->
+  <rect x="175" y="175" width="162" height="162" rx="20" fill="black" opacity="0.15"/>
+  <rect x="170" y="170" width="172" height="172" rx="25" fill="white" opacity="0.97"/>
+  
+  <!-- Content lines -->
+  <rect x="200" y="200" width="112" height="28" rx="8" fill="#3B82F6"/>
+  <rect x="200" y="245" width="80" height="18" rx="6" fill="#60A5FA" opacity="0.85"/>
+  <rect x="200" y="275" width="95" height="18" rx="6" fill="#60A5FA" opacity="0.85"/>
+  <rect x="200" y="305" width="70" height="18" rx="6" fill="#93C5FD" opacity="0.7"/>
+  
+  <!-- Small edit icon -->
+  <circle cx="300" cy="300" r="25" fill="#3B82F6"/>
+  <path d="M292 300 L296 308 L308 296" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sample Poster</title>
+  <style>
+    body { margin: 0; padding: 0; }
+    .poster {
+      width: 720px; height: 720px; position: relative;
+      background: #f3f4f6; overflow: hidden; font-family: sans-serif;
+    }
+    .title {
+      position: absolute; top: 80px; left: 40px;
+      font-size: 48px; font-weight: bold; color: #111827;
+    }
+    .subtitle {
+      position: absolute; top: 160px; left: 40px;
+      font-size: 20px; color: #374151;
+    }
+    .hero {
+      position: absolute; bottom: 0; right: 0; width: 380px; height: 380px;
+      object-fit: cover; border-top-left-radius: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="poster">
+    <h1 class="title">Summer Sale</h1>
+    <p class="subtitle">Up to <strong>50% off</strong> on select items!</p>
+    <img class="hero" src="https://images.unsplash.com/photo-1761162816810-fe0e8e36ea40?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="Model" />
+  </div>
+</body>
+</html>
